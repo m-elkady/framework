@@ -34,14 +34,14 @@ abstract class Factory
      *
      * @var class-string<TModel>
      */
-    protected $model;
+    protected string $model;
 
     /**
      * The number of models that should be generated.
      *
      * @var int|null
      */
-    protected $count;
+    protected null|int $count;
 
     /**
      * The state transformations that will be applied to the model.
